@@ -1,3 +1,4 @@
+import pandas as pd
 from data_preparation import df_scaled, df
 
 # Remove customer ID (Inused for analysis)
