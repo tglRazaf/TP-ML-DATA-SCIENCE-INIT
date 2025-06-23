@@ -8,6 +8,8 @@ df = pd.read_csv("assets/Mall_Customers.csv")
 # 2. Supprimer les lignes avec des valeurs manquantes
 df = df.dropna()
 
+print(df.head())
+
 # 3. Standardisation des variables numériques
 scaler = StandardScaler()
 df_scaled = df.copy()
